@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Entorno
+.env
+
+# Dependencias
+node_modules/
+
+# Compilación/Distribución
+dist/
+build/
+
+# Bases de datos y migraciones
+*.sqlite3
+*.sqlite
+/sequelize-meta.json
+
+# Directorios de Sequelize
+/models/index.js
+
+# Editor y Sistema Operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+.vscode-test/
+
+# Archivos temporales del sistema operativo
+*.pid
+*.seed
+
+# Caché de tests
+coverage/
+.nyc_output/
+
+# Archivos generados por NPM/Yarn
+package-lock.json
+yarn.lock
+
+# Otros
+!.eslintrc.js
+*.bak
+*.tmp
